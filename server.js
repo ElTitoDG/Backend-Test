@@ -4,7 +4,7 @@ const server = new Server();
 
 server.on("connection", (socket) => {
   console.log(
-    `New connection from: ${socket.remoteAddress}:${socket.remotePort}`
+    `New connection from: ${socket.remoteAddress} from port ${socket.remotePort}`
   );
   socket.setEncoding('utf-8');
   socket.on("data", (data) => {
