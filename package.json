@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Drac09/Backend-Test/issues"
   },
-  "homepage": "https://github.com/Drac09/Backend-Test#readme"
+  "homepage": "https://github.com/Drac09/Backend-Test#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
